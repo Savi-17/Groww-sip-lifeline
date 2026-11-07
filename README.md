@@ -25,9 +25,9 @@ node -v
 npm start
 ```
 
-4. Open http://127.0.0.1:4173
+4. Open http://localhost:4173 locally, or use the port you set with `PORT`.
 
-The server uses port 4173. If you need a different port, change the `PORT` constant in `server.js`.
+The server binds to `0.0.0.0`, uses the platform-provided `PORT`, and defaults to port 4173 for local development.
 
 ## Deploy to Vercel
 
